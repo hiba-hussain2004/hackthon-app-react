@@ -26,7 +26,7 @@ const Addteam = () => {
     console.log(input);
 
     axios
-      .post("http://localhost:3000/add", input)
+      .post("http://localhost:3002/add-team", input)
       .then((response) => {
         console.log(response.data);
         alert("Team Registered Successfully");
