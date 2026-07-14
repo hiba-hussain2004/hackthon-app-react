@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react'
+import Teamnavigation from './Teamnavigation';
 
 const Addteam = () => {
     const [input, setInput] = useState({
@@ -39,7 +40,7 @@ const Addteam = () => {
 
     return (
         <div>
-
+            <Teamnavigation/>
             <div className="container mt-4">
         <div className="card shadow p-4">
 
