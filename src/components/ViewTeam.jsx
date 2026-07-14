@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Teamnavigation from './Teamnavigation'
 
 const ViewTeam = () => {
     const [data,changeData]=useState([])
@@ -21,6 +22,7 @@ const ViewTeam = () => {
 
   return (
     <div>
+        <Teamnavigation/>
         <h2 className="text-center mb-4">View Lab Entry</h2>
         <table className="table table-bordered table-striped table-hover">
   <thead className="table-dark">
